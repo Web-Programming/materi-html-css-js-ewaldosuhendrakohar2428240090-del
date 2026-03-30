@@ -1,0 +1,19 @@
+/* Efek hover pada card untuk interaktivitas */
+.card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
+}
+
+/* Kustomisasi bayangan pada gambar profil */
+.profile-img {
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+/* Memperbaiki jarak antar paragraf */
+p {
+    line-height: 1.6;
+}
